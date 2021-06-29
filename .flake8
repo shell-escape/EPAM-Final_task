@@ -1,0 +1,18 @@
+[flake8]
+
+exclude =
+    *_venv
+    venv_*
+    venv
+
+max-cognitive-complexity = 10
+per-file-ignores =
+    ./task/*.py: T001
+    test*.py: S101
+    # Skip unused imports in __init__ files
+    __init__.py: F401
+
+max_line_length = 88
+max_doc_length = 72
+
+doctests = True

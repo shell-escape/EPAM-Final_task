@@ -1,0 +1,7 @@
+flake8
+black
+isort
+pylint
+pytest
+pytest-sugar
+numpy
