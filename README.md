@@ -12,7 +12,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This is an interactive console application that accepts a simple set of commands to control a robot (a point on the field) within a certain field of arbitrary size. A field is a rectangle that contains empty points, bariers (points that a robot cannot pass) and walls (added automatically around the field). You can specify the size of the field and the probability of the barrier using command line arguments. Then you can control the robot with simple commands like 'left', 'right', etc. (See 'Usage' section below).
+This is an interactive console application that accepts a simple set of commands to control a robot (a point on the field) within a certain field of arbitrary size. A field is a rectangle that contains empty points, bariers (points that a robot cannot pass) and walls (added automatically around the field). You can specify the size of the field (not considering the walls) and the probability for barriers using command line arguments. Then you can control the robot with simple commands like 'left', 'right', etc. (see 'Usage' section below).
 
 
 <!-- GETTING STARTED -->
@@ -26,7 +26,7 @@ This is an interactive console application that accepts a simple set of commands
    ```sh
    pip install -r requirements
    ```
-3. Add project directory to PYTHONPATH. For example for Linux:
+3. Add the project directory to PYTHONPATH. Example for Linux:
    ```sh
    export PYTHONPATH=$PYTHONPATH:path/to/project/directory
    ```
