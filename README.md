@@ -36,7 +36,7 @@ This is an interactive console application that accepts a simple set of commands
 
 There is an example how to run this application:
    ```sh
-   python3 main.py --n_rows=10 --n_cosl=10 --p=0.2 --radius=3 --logfile=./file.json
+   python3 main.py --n_rows=10 --n_cols=10 --p=0.2 --radius=3 --logfile=./file.json
    ```
 
 Command line arguments explanation:
@@ -59,7 +59,8 @@ The following command are available:
 * **turn_right**: turns the robot clockwise.
 * **turn_back**: turns the robot 180 degrees.
 * **save**: saves movement history to a json file specified by 'logfile' command line argument.
-* **look**: to print the field in robot's light radius specified by 'radius' command line argument.
+* **look**: prints the field in robot's light radius specified by 'radius' command line argument.
+* **exit**, **quit** or **stop**: closes the application.
 
 After each move or turn, the robot reports about its position.
 
@@ -67,4 +68,4 @@ After each move or turn, the robot reports about its position.
 
 ![image](https://user-images.githubusercontent.com/77696343/123671147-a0adff00-d846-11eb-8c79-5b212ad09be3.png)
 
-Green point is the robot. Orange points are points that the robot can see. '.' is an empty space, '+' is a barier, 'x' is a wall. The direction of the robot is displayed with '^' for 'up', '>' for 'right', '<' for 'left' and '=' for 'down'.
+The green point is the robot. Orange points are points that the robot can see. '.' is an empty space, '+' is a barier, 'x' is a wall. The direction of the robot is displayed with '^' for 'up', '>' for 'right', '<' for 'left' and '=' for 'down'.
