@@ -36,7 +36,7 @@ This is an interactive console application that accepts a simple set of commands
 
 There is an example how to run this application:
    ```sh
-   python3 main.py --n_rows=10 --n_cols=10 --p=0.2 --radius=3 --logfile=./file.json
+   python3 main.py --n_rows=10 --n_cols=10 --p=0.2 --radius=5 --logfile=./file.json
    ```
 
 Command line arguments explanation:
